@@ -1,25 +1,37 @@
+import FadeIn from "../animations/FadeIn";
+
 export default function AppPreview() {
   return (
     <section className="py-20" id="preview">
       <div className="max-w-5xl mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-2xl md:text-3xl font-semibold mb-4">
-            See the app in action
+        <div className="text-center mb-6">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold mb-2">
+            See <span className="text-orange-500">Tokki Korean</span> in action
           </h2>
           <p className="text-gray-600">
-            A simple and focused interface designed for effective learning.
+            It's jam-packed with awesome features!
           </p>
         </div>
-        <div className="bg-gray-100 rounded-2xl p-4 shadow-sm">
+        <FadeIn>
+          <div className="max-w-3xl mx-auto">
+            <div className="rounded-2xl overflow-hidden shadow-sm border">
+              <div className="relative w-full pb-[56.25%]">
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/odrgbK2KGnU"
+                  title="Tokki Korean App Preview"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+          </div>
+        </FadeIn>
+        {/* <div className="bg-gray-100 rounded-2xl p-4 shadow-sm">
           <div className="bg-white rounded-xl p-6 min-h-[300px] flex flex-col gap-4">
-            {/* Example content */}
             <div className="text-sm text-gray-500">Vocabulary Practice</div>
-
             <div className="text-3xl font-bold">학교</div>
-
             <div className="text-gray-600">What does this mean?</div>
-
-            {/* Options */}
             <div className="grid gap-3 mt-4">
               <button className="border rounded-lg py-2 hover:bg-gray-50">
                 School
@@ -35,7 +47,7 @@ export default function AppPreview() {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
