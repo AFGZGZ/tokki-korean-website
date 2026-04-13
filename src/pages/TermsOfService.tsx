@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Terms } from "../content/Terms";
 
 export type PolicySection = {
@@ -17,7 +16,7 @@ export default function TermsOfService({
   title = "Terms of Service",
   lastUpdated = "2026/04/13",
 }: Props) {
-  const [sections, setSections] = useState<PolicySection[]>(Terms);
+  const sections = Terms;
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-10">

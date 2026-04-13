@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Policy } from "../content/Policy";
 
 export type PolicySection = {
@@ -17,7 +16,7 @@ export default function PrivacyPolicy({
   title = "Privacy Policy",
   lastUpdated = "2026/04/13",
 }: Props) {
-  const [sections, setSections] = useState<PolicySection[]>(Policy);
+  const sections = Policy;
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-10">
