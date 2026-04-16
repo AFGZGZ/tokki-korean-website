@@ -15,9 +15,27 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="min-h-[calc(100vh-64px)] flex items-center">
+    // <section className="min-h-[calc(100vh-64px)] flex items-center">
+    // <section className="min-h-[calc(100vh-64px)] flex items-start md:items-center py-10 md:py-0">
+    <section
+      className="
+  min-h-[calc(100vh-64px)]
+  flex 
+  items-center
+  py-6 md:py-0
+"
+    >
       <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
-        <div className="relative h-[300px] md:h-[80vh] overflow-hidden md:overflow-visible flex items-start md:items-center justify-center">
+        {/* <div className="relative h-[300px] md:h-[80vh] overflow-hidden md:overflow-visible flex items-start md:items-center justify-center"> */}
+        <div
+          className="
+  relative 
+  h-[180px] sm:h-[240px] md:h-[80vh] 
+  overflow-hidden 
+  flex items-start md:items-center justify-center
+  -mt-10 sm:-mt-6 md:mt-0
+"
+        >
           {screens.map((src, i) => {
             const offset = i;
 

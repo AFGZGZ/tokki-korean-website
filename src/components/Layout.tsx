@@ -75,7 +75,7 @@ export default function Layout() {
             >
               AxelDevelops
             </a>{" "}
-            All rights reserved.
+            all rights reserved.
           </p>
           <div className="flex gap-4">
             <Link to="/privacy" className="hover:text-black">

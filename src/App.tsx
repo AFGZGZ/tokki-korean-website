@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import Privacy from "./pages/PrivacyPolicy";
 import Terms from "./pages/TermsOfService";
+import ScrollToTop from "./components/animations/ScrollToTop";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
   bg-[radial-gradient(#fdba74_0.6px,transparent_0.8px)]
   [background-size:28px_28px]"
     >
+      <ScrollToTop />
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
