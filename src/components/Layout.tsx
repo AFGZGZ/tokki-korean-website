@@ -23,6 +23,15 @@ export default function Layout() {
             {/* <div className="hidden md:flex items-center gap-3"> */}
             <div className="flex items-center gap-3">
               <a
+                href="https://blog.tokkikorean.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="opacity-80 hover:opacity-100 transition font-semibold"
+                title="Blog"
+              >
+                Blog
+              </a>
+              <a
                 href="mailto:contact@tokkikorean.com"
                 className="opacity-70 hover:opacity-100 transition"
                 title="Email"
