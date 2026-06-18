@@ -5,19 +5,34 @@ import Card from "../ui/Card";
 export default function Features() {
   const features = [
     {
+      title: "All-in-one Korean learning app",
+      description:
+        "Dictionary, grammar lessons, flashcards, TOPIK practice, ebooks, and YouTube subtitles—all in one place.",
+    },
+    {
       title: "Enjoy Korean content in context",
       description:
-        "You can use the dictionaries, grammar explanation while watching Youtube, reading some webtoons...  ",
+        "Read books and webtoons and watch YouTube videos, tap any word to see its meaning and grammar explanation.",
+    },
+    {
+      title: "Integrated Korean dictionary",
+      description:
+        "Look up words, example sentences, grammar points, and particle usage, then save them for later review.",
     },
     {
       title: "Powerful flashcards",
       description:
-        "Create your own perfect vocab sessions with different modes (Multiple Choice, Pronunciation, SRS Flashcards...)",
+        "Create your own perfect vocab sessions with different modes (Multiple Choice, Pronunciation, Cloze...)",
     },
     {
-      title: "Practice with previous Topik tests",
+      title: "Practice with previous TOPIK tests",
       description:
-        "We created a simulation of the real test conditions so you can practice with actual tests from previous years.",
+        "Prepare under realistic exam conditions with a list of actual TOPIK exams from previous years.",
+    },
+    {
+      title: "Make practice fun with games",
+      description:
+        "Reinforce vocabulary and get used to use korean quickly with games like word search, 끝말잇기...  ",
     },
     {
       title: "Offline first",

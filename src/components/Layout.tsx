@@ -3,6 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 import logo from "../assets/tokki.webp";
 import discord from "../assets/discord.svg";
 import mail from "../assets/mail.svg";
+import youtube from "../assets/youtube.svg";
 
 export default function Layout() {
   // const [open, setOpen] = useState(false);
@@ -32,11 +33,29 @@ export default function Layout() {
                 Blog
               </a>
               <a
+                href="https://tokkikorean.userjot.com/roadmap"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="opacity-80 hover:opacity-100 transition font-semibold"
+                title="Blog"
+              >
+                Roadmap
+              </a>
+              <a
                 href="mailto:contact@tokkikorean.com"
                 className="opacity-70 hover:opacity-100 transition"
                 title="Email"
               >
                 <img src={mail} alt="Email" className="w-7 h-7" />
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCLIW_2xcVjOqADOGjPy5qRw"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="opacity-70 hover:opacity-100 transition"
+                title="Youtube"
+              >
+                <img src={youtube} alt="Discord" className="w-7 h-7" />
               </a>
               <a
                 href="https://discord.gg/9rAVZw442A"

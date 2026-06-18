@@ -77,25 +77,35 @@ export default function Hero() {
         </div>
         <div className="text-center md:text-left">
           <FadeIn>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight mb-6">
+            {/* <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight mb-6">
               <span className="text-orange-500">Tokki Korean.</span> Your
               all-in-one toolset for learning korean.
+            </h1> */}
+            <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight mb-6">
+              <span className="text-orange-500">Tokki Korean.</span> The
+              ultimate toolkit for Korean learners.
             </h1>
           </FadeIn>
           <p className="text-gray-600 text-lg md:text-xl mb-8">
             Practice vocabulary, grammar, reading, pronunciation... with
-            real-world content of your own choosing.
+            real-world content of your own choosing. No account required,
+            offline first and private.
           </p>
-          <div className="flex flex-col items-center md:items-start gap-3">
-            <div className="opacity-50 cursor-not-allowed">
-              <img
-                src={storeImg}
-                alt="Get it on Google Play (coming soon)"
-                className="h-14 grayscale"
-              />
+          <a
+            href="https://play.google.com/store/apps/details?id=com.tokkikorean"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="flex flex-col items-center md:items-start gap-3">
+              <div>
+                <img
+                  src={storeImg}
+                  alt="Get it on Google Play (coming soon)"
+                  className="h-14"
+                />
+              </div>
             </div>
-            <p className="text-sm text-gray-500">*Available soon</p>
-          </div>
+          </a>
         </div>
       </div>
     </section>

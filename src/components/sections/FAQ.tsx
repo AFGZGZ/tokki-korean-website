@@ -13,16 +13,17 @@ export default function FAQ() {
   const faqs: FAQItem[] = [
     {
       question: "When and where is going to be available?",
-      answer: "Tokki Korean will launch in may 2026 for Android devices first.",
+      answer: "Tokki Korean is already available for Android devices.",
     },
     {
       question: "Is Tokki Korean free to use?",
       answer:
-        "We are still working on our monetization, but at minimum we will offer a 7 days trial period and a very affordable lifetime purchase.",
+        "A lot of features are free forever, we also offer a 7 days trial period for the pro version and for a limited time a very affordable lifetime pro access (one time purchase) for those that want the full package.",
     },
     {
       question: "Do I need to create an account?",
-      answer: "No account is required to use Tokki Korean.",
+      answer:
+        "No account is required to use Tokki Korean, just download it and start learning inmediately!",
     },
     {
       question: "What level is Tokki Korean for?",
