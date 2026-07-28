@@ -1,4 +1,4 @@
-import type { PolicySection } from "../pages/TermsOfService";
+import type { PolicySection } from "../components/legal/Tos";
 
 export const Terms: PolicySection[] = [
   {

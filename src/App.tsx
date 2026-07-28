@@ -3,6 +3,8 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import Privacy from "./pages/PrivacyPolicy";
+import DictPrivacyPolicy from "./pages/DictionaryPrivacy";
+import DictTos from "./pages/DictionaryTos";
 import Terms from "./pages/TermsOfService";
 import ScrollToTop from "./components/animations/ScrollToTop";
 
@@ -19,6 +21,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/privacy" element={<Privacy />} />
+          <Route path="/dictionary-terms" element={<DictTos />} />
+          <Route path="/dictionary-privacy" element={<DictPrivacyPolicy />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

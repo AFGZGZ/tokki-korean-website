@@ -1,4 +1,4 @@
-import type { PolicySection } from "../pages/PrivacyPolicy";
+import type { PolicySection } from "../components/legal/Privacy";
 
 export const Policy: PolicySection[] = [
   {
